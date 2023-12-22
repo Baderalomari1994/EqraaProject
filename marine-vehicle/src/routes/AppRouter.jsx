@@ -2,7 +2,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Login from '../pages/login';
 import Home from '../pages/home';
-import Nav from '../components/nav';
 import Layout from '../components/layout';
 import ServiceDetails from '../pages/ServiceDetails';
 import InformationForm from '../pages/InformationForm';

@@ -1,11 +1,12 @@
 import Wizard from "../components/Wizard";
+import MarineInfoForm from "./MarineInfoForm";
 
-function MarineInfoFForm() {
-    return null;
-}
+
 
 const steps = [
-    { label: 'Step 1', component: <MarineInfoFForm /> },
+    { label: 'Step 1', component: <MarineInfoForm/> },
+    { label: 'Step 2', component: <MarineInfoForm/> },
+    { label: 'Step 3', component: <MarineInfoForm/> },
     // Add more steps as needed
 ];
 
